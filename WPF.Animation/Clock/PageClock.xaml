@@ -1,0 +1,260 @@
+﻿<Page x:Class="WPF.Animation.Clock.PageClock"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF.Animation.Clock"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="450"
+      Title="Clock" >
+
+    <Grid>
+        <Border Background="LightCyan">
+            <Grid>
+                <Ellipse Stroke="Black" StrokeThickness="10" Margin="10"></Ellipse>
+                <Ellipse Stroke="Gray" StrokeThickness="1" Width="350" Height="350"></Ellipse>
+                <Ellipse Stroke="Gray" StrokeThickness="1" Width="380" Height="380"></Ellipse>
+                <Ellipse  StrokeThickness="5" Fill="White" Width="20" Height="20" Stroke="Black" ></Ellipse>
+
+                <TextBlock Text="12" FontSize="35" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="205" Y="50"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="1" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="290" Y="80"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="2" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="340" Y="130"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="3" FontSize="35" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="370" Y="200"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="4" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="350" Y="280"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="5" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="300" Y="340"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="6" FontSize="35" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="215" Y="360"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="8" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="80" Y="280"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="7" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="140" Y="340"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="9" FontSize="35" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="60" Y="205"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="11" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="140" Y="80"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="10" FontSize="25" >
+                    <TextBlock.RenderTransform>
+                        <TranslateTransform X="85" Y="130"></TranslateTransform>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <Path  Stroke="Black" StrokeThickness="3">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="0" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="3">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="90" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="3">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="180" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="3">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="270" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="30" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="60" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="120" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="150" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="210" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="240" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="300" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="1">
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,35 225,50">
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="330" CenterX="225" CenterY="225"></RotateTransform>
+                            </PathGeometry.Transform>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Yellow" StrokeThickness="1" Name="seconds">
+                    <Path.RenderTransform>
+                        <RotateTransform CenterX="225" CenterY="225" Angle="{Binding SecondIndicate,  UpdateSourceTrigger=PropertyChanged}">
+
+                        </RotateTransform>
+                    </Path.RenderTransform>
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF2BE60E" Offset="0.3"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,60 220,200 225,225 225,250  225,225  230,200 z">
+                        </PathGeometry>
+                    </Path.Data>
+                    <!--<Path.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        -->
+                    <!--<BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation 
+                                    Storyboard.TargetName="seconds"
+                                    Storyboard.TargetProperty="RenderTransform.Angle"
+                                    Duration="00:01:00" From="0" To="360" By="6" RepeatBehavior="Forever"></DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>-->
+                    <!--
+                    </EventTrigger>
+                </Path.Triggers>-->
+
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="2">
+                    <Path.RenderTransform>
+                        <RotateTransform CenterX="225" CenterY="225" Angle="{Binding MinIndicate,  UpdateSourceTrigger=PropertyChanged}">
+                        </RotateTransform>
+                    </Path.RenderTransform>
+                  
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF157AF3" Offset="0.3"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,80 215,200 225,225 225,250  225,225  235,200 z">
+
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path  Stroke="Black" StrokeThickness="2">
+                    <Path.RenderTransform>
+                        <RotateTransform CenterX="225" CenterY="225" Angle="{Binding HoursIndicate,  UpdateSourceTrigger=PropertyChanged}">
+
+                        </RotateTransform>
+                    </Path.RenderTransform>
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE233AA" Offset="0.3"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                    <Path.Data>
+                        <PathGeometry Figures="M 225,120 200,200 225,225 225,250  225,225  250,200 z">
+
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
